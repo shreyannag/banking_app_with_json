@@ -6,12 +6,15 @@ file_name = "Data.json"
 
 # Functions
 def intro():
-    print("\t\t\t\t********")
+    print("\t\t\t\t****")
     print("\t\t\t\tBANK MANAGEMENT SYSTEM")
-    print("\t\t\t\t********")
-    print("\t\t\t\tCreated by")
-    print("\t\t\t\tSHREYAN NAG COMPUTER CLASSES")
+    print("\t\t\t\t****")
+
+    print("\t\t\t\tBrought To You By:")
+    print("\t\t\t\tAKSHAAT AGARWAL\n\t\t\t\tDEBOPRIYA BOSE\n\t\t\t\tYASHAN MOLLA")
     input()
+
+
 
 def details(name, dictionary):
     if name in dictionary:
